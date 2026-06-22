@@ -1,0 +1,13 @@
+name: Schedule workflow
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  event:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: event run on
+        run: echo "hello hii how are you!!!!"
