@@ -1,0 +1,15 @@
+name: faiz akhter
+
+on:
+    push:
+      branches:
+        - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "hello! world"
+        
