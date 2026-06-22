@@ -2,8 +2,7 @@ name: faiz akhter
 
 on:
     push:
-      branches:
-        - main
+      branches: [ main ]
       
 jobs:
   build:
